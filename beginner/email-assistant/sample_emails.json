@@ -1,0 +1,17 @@
+[
+  {
+    "sender": "customer@gmail.com",
+    "subject": "Damaged laptop received",
+    "body": "Hello, I ordered a laptop for ₹65,000. It arrived today, but the screen is cracked. I want a replacement as soon as possible. My order ID is #45821."
+  },
+  {
+    "sender": "buyer@gmail.com",
+    "subject": "Where is my order?",
+    "body": "I ordered a laptop 10 days ago and it has not arrived. Order ID #77310."
+  },
+  {
+    "sender": "shopper@gmail.com",
+    "subject": "Help",
+    "body": "Hi, laptop issue, please help."
+  }
+]

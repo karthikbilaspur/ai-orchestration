@@ -1,0 +1,4 @@
+timestamp,source,destination,distance_km,mode,total_cost,time_formatted
+2026-11-04T10:20:30.761399,,,32.0,auto,576.0,1hr 46 mins
+2026-11-04T10:20:38.462113,,,32.0,auto,576.0,1hr 46 mins
+2026-11-04T10:20:51.806903,Indiranagar,Airport,32.0,auto,576.0,1hr 46 mins

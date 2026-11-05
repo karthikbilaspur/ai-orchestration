@@ -1,0 +1,12 @@
+timestamp,id,sender,amount,currency,category,place,bill,decision,rule,message
+2026-11-03T06:29:12,E001,Priya,1200,INR,food,Toit,No,Rejected,R1,Rejected as per policy: Bill mandatory above Rs 1000
+2026-11-03T06:29:12,E002,Ravi,350,INR,travel,Uber,Yes,Approved,R2,Approved as per policy: expenses under Rs 500 are auto-approved
+2026-11-03T06:29:12,E003,Amit,2400,INR,food,Truffles,Yes,Manager Review,R3,Sent to your manager for approval as per policy
+2026-11-03T06:29:12,E004,Sneha,500,INR,travel,Airport,No,Manager Review,R3,Sent to your manager for approval as per policy
+2026-11-03T06:29:12,E005,Kiran,1000,INR,accommodation,Taj,No,Manager Review,R3,Sent to your manager for approval as per policy
+2026-11-03T06:29:12,E006,Meera,450,INR,food,Third Wave,Unknown,Approved,R2,Approved as per policy: expenses under Rs 500 are auto-approved
+2026-11-03T06:29:12,E007,Dev,,INR,food,,No,Manager Review,R0-MULTI-AMOUNT,"Sent to manager: more than one amount found (Rs 700, Rs 800), please confirm the total"
+2026-11-03T06:29:12,E008,Nisha,250,USD,travel,,Unknown,Manager Review,R0-CURRENCY,Sent to manager: expense is in USD but policy limits are in Rs
+2026-11-03T06:29:12,E009,Arun,,INR,food,,Unknown,Need More Info,R0-NO-AMOUNT,Need more info: please share the expense amount (for example Rs 1200)
+2026-11-03T06:29:12,E010,Amit,2400,INR,food,Truffles Bangalore,Yes,Manager Review,R0-DUPLICATE,Sent to manager: looks like a duplicate of an earlier claim
+2026-11-03T06:29:12,E011,Zoya,5000,INR,food,Karavalli,Unknown,Need More Info,R0-BILL-UNKNOWN,"Need more info: bill is mandatory above Rs 1000, please attach it or confirm you have none"

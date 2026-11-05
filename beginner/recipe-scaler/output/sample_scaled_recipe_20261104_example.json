@@ -1,0 +1,15 @@
+{
+  "input": "This pasta recipe is for 2 people: 200g pasta, 100ml cream. Make it for 5 people and give me a shopping list.",
+  "extracted": {
+    "original_servings": 2,
+    "new_servings": 5,
+    "scale_factor": 2.5
+  },
+  "scaled": [
+    {
+      "name": "pasta",
+      "quantity": 500,
+      "unit": "g"
+    }
+  ]
+}

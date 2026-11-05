@@ -1,0 +1,30 @@
+PROMPT LOG - AI Travel Time & Budget Estimator V2 Gemini
+
+Original User Prompt V1:
+"I want to go from Indiranagar to the Airport, distance is 32km. If auto charges 18rs per km..."
+
+Upgrade Request V2:
+"go for gemini api and upgrade it few more rounds"
+
+--- PROMPTS USED FOR UPGRADE ---
+
+1. Architecture Upgrade Prompt:
+"Upgrade extractor from regex to Gemini API with structured JSON output, add fallback to regex when no API key. Use python-dotenv for key management."
+
+2. Calculator Enhancement Prompt:
+"Extend calculator to support travel modes (auto, cab, bike, metro) with multipliers, traffic factor affecting speed, round-trip doubling distance, waiting charges, and budget range min/max."
+
+3. Orchestrator V2 Prompt:
+"Make orchestrator use Gemini twice: once for extraction, once for final explanation. Auto-save to output/ as txt, json, and append to history.csv for trip history."
+
+4. CLI & Testing Prompt:
+"Add argparse CLI with --no-gemini and --interactive flags, show Gemini active/fallback status, add unit tests for mode detection, traffic, round-trip, cost multipliers."
+
+5. Gemini Prompt Engineering:
+Extraction Prompt:
+"You are a travel info extractor... Return ONLY valid JSON with source, destination, distance_km, rate_per_km, avg_speed_kmph, mode, traffic, round_trip"
+
+Explanation Prompt:
+"You are a friendly Bangalore travel assistant. Explain this trip calculation in 2-3 lines conversational in INR, include tip..."
+
+All prompts logged. Total 3 upgrade rounds completed.

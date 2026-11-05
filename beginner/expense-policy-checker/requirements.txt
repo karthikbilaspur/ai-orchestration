@@ -1,0 +1,5 @@
+# The project runs with ONLY the Python standard library.
+# Decisions are plain rules (no AI). Optional: install anthropic to let an LLM help the
+# Parser only when the regex cannot find an amount in a very messy message.
+anthropic>=0.40.0
+pytest>=8.0.0

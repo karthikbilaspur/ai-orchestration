@@ -1,0 +1,100 @@
+2026-11-03 05:47:45 | INFO    | Orchestrator ready | mode=rule-based
+2026-11-03 05:47:45 | INFO    | INPUT   | Where is my order? I ordered shoes 3 days ago, Order ID SHOE998, still not delivered!
+2026-11-03 05:47:45 | INFO    | IntentAgent -> intent=order_status sentiment=angry conf=0.85 order_id=None tracking=None
+2026-11-03 05:47:45 | INFO    | InfoAgent   -> intent=order_status sentiment=angry conf=0.85 order_id=SHOE998 tracking=Out for delivery
+2026-11-03 05:47:45 | INFO    | ReplyAgent  -> intent=order_status sentiment=angry conf=0.85 order_id=SHOE998 tracking=Out for delivery
+2026-11-03 05:47:45 | INFO    | REPLY   | Hi, I'm really sorry for the wait. I understand how frustrating that is. Good news: your order SHOE998 is out for delivery and should reach you today. You can track it live here: https://track.example.com/SHOE998. If it doesn't arrive by tonight, reply here and we'll sort it out right away.
+2026-11-03 05:47:45 | INFO    | ESCALATE| False
+2026-11-03 05:47:45 | INFO    | ------------------------------------------------------------
+2026-11-03 05:47:45 | INFO    | INPUT   | Hi, can you tell me the status of order SHOE202?
+2026-11-03 05:47:45 | INFO    | IntentAgent -> intent=order_status sentiment=neutral conf=0.85 order_id=None tracking=None
+2026-11-03 05:47:45 | INFO    | InfoAgent   -> intent=order_status sentiment=neutral conf=0.85 order_id=SHOE202 tracking=Shipped
+2026-11-03 05:47:45 | INFO    | ReplyAgent  -> intent=order_status sentiment=neutral conf=0.85 order_id=SHOE202 tracking=Shipped
+2026-11-03 05:47:45 | INFO    | REPLY   | Your order SHOE202 is currently: Shipped. Track it here: https://track.example.com/SHOE202
+2026-11-03 05:47:45 | INFO    | ESCALATE| False
+2026-11-03 05:47:45 | INFO    | ------------------------------------------------------------
+2026-11-03 05:47:45 | INFO    | INPUT   | I want my money back for order SHOE101, the shoes don't fit.
+2026-11-03 05:47:45 | INFO    | IntentAgent -> intent=refund sentiment=neutral conf=0.90 order_id=None tracking=None
+2026-11-03 05:47:45 | INFO    | InfoAgent   -> intent=refund sentiment=neutral conf=0.90 order_id=SHOE101 tracking=Delivered
+2026-11-03 05:47:45 | INFO    | ReplyAgent  -> intent=refund sentiment=neutral conf=0.90 order_id=SHOE101 tracking=Delivered
+2026-11-03 05:47:45 | INFO    | REPLY   | I'm sorry things didn't work out. Here is our refund policy for order SHOE101: You can request a refund within 30 days of delivery for unused items in their original packaging. Once we receive the return, your refund is processed to the original payment method within 5-7 business days.
+2026-11-03 05:47:45 | INFO    | ESCALATE| False
+2026-11-03 05:47:45 | INFO    | ------------------------------------------------------------
+2026-11-03 05:47:45 | INFO    | INPUT   | This is the worst service ever! Order BAG555 is late again!!
+2026-11-03 05:47:45 | INFO    | IntentAgent -> intent=complaint sentiment=angry conf=0.85 order_id=None tracking=None
+2026-11-03 05:47:45 | INFO    | InfoAgent   -> intent=complaint sentiment=angry conf=0.85 order_id=BAG555 tracking=Delayed
+2026-11-03 05:47:45 | INFO    | ReplyAgent  -> intent=complaint sentiment=angry conf=0.85 order_id=BAG555 tracking=Delayed
+2026-11-03 05:47:45 | INFO    | REPLY   | I'm sorry about the trouble with order BAG555. Its current status is: Delayed. You can follow it here: https://track.example.com/BAG555. If you need more help, reply here and we'll look into it.
+2026-11-03 05:47:45 | INFO    | ESCALATE| True
+2026-11-03 05:47:45 | INFO    | ------------------------------------------------------------
+2026-11-03 05:47:45 | INFO    | INPUT   | Where is my package? I never got an order ID.
+2026-11-03 05:47:45 | INFO    | IntentAgent -> intent=order_status sentiment=neutral conf=0.85 order_id=None tracking=None
+2026-11-03 05:47:45 | INFO    | InfoAgent   -> intent=order_status sentiment=neutral conf=0.85 order_id=None tracking=None
+2026-11-03 05:47:45 | INFO    | ReplyAgent  -> intent=order_status sentiment=neutral conf=0.85 order_id=None tracking=None
+2026-11-03 05:47:45 | INFO    | REPLY   | I'm sorry for the trouble. Could you please share your Order ID (for example SHOE123) so I can check it right away?
+2026-11-03 05:47:45 | INFO    | ESCALATE| False
+2026-11-03 05:47:45 | INFO    | ------------------------------------------------------------
+2026-11-03 05:47:45 | INFO    | INPUT   | Where is my order ZZZ999?
+2026-11-03 05:47:45 | INFO    | IntentAgent -> intent=order_status sentiment=neutral conf=0.85 order_id=None tracking=None
+2026-11-03 05:47:45 | INFO    | InfoAgent   -> intent=order_status sentiment=neutral conf=0.85 order_id=ZZZ999 tracking=None
+2026-11-03 05:47:45 | INFO    | ReplyAgent  -> intent=order_status sentiment=neutral conf=0.85 order_id=ZZZ999 tracking=None
+2026-11-03 05:47:45 | INFO    | REPLY   | I'm sorry, I couldn't find an order with ID ZZZ999. I've passed this to a human teammate who will check it for you.
+2026-11-03 05:47:45 | INFO    | ESCALATE| True
+2026-11-03 05:47:45 | INFO    | ------------------------------------------------------------
+2026-11-03 05:47:45 | INFO    | INPUT   | hello
+2026-11-03 05:47:45 | INFO    | IntentAgent -> intent=unknown sentiment=neutral conf=0.20 order_id=None tracking=None
+2026-11-03 05:47:45 | INFO    | InfoAgent   -> intent=unknown sentiment=neutral conf=0.20 order_id=None tracking=None
+2026-11-03 05:47:45 | INFO    | ReplyAgent  -> intent=unknown sentiment=neutral conf=0.20 order_id=None tracking=None
+2026-11-03 05:47:45 | INFO    | REPLY   | Thanks for reaching out. I want to make sure you get the right help, so I'm passing your message to a human teammate who will reply shortly.
+2026-11-03 05:47:45 | INFO    | ESCALATE| True
+2026-11-03 05:47:45 | INFO    | ------------------------------------------------------------
+2026-11-05 23:14:38 | INFO    | Orchestrator ready | mode=rule-based
+2026-11-05 23:14:38 | INFO    | INPUT   | Where is my order? I ordered shoes 3 days ago, Order ID SHOE998, still not delivered!
+2026-11-05 23:14:38 | INFO    | IntentAgent -> intent=order_status sentiment=angry conf=0.85 order_id=None tracking=None
+2026-11-05 23:14:38 | INFO    | InfoAgent   -> intent=order_status sentiment=angry conf=0.85 order_id=SHOE998 tracking=Out for delivery
+2026-11-05 23:14:38 | INFO    | ReplyAgent  -> intent=order_status sentiment=angry conf=0.85 order_id=SHOE998 tracking=Out for delivery
+2026-11-05 23:14:38 | INFO    | REPLY   | Hi, I'm really sorry for the wait. I understand how frustrating that is. Good news: your order SHOE998 is out for delivery and should reach you today. You can track it live here: https://track.example.com/SHOE998. If it doesn't arrive by tonight, reply here and we'll sort it out right away.
+2026-11-05 23:14:38 | INFO    | ESCALATE| False
+2026-11-05 23:14:38 | INFO    | ------------------------------------------------------------
+2026-11-05 23:14:38 | INFO    | INPUT   | Hi, can you tell me the status of order SHOE202?
+2026-11-05 23:14:38 | INFO    | IntentAgent -> intent=order_status sentiment=neutral conf=0.85 order_id=None tracking=None
+2026-11-05 23:14:38 | INFO    | InfoAgent   -> intent=order_status sentiment=neutral conf=0.85 order_id=SHOE202 tracking=Shipped
+2026-11-05 23:14:38 | INFO    | ReplyAgent  -> intent=order_status sentiment=neutral conf=0.85 order_id=SHOE202 tracking=Shipped
+2026-11-05 23:14:38 | INFO    | REPLY   | Your order SHOE202 is currently: Shipped. Track it here: https://track.example.com/SHOE202
+2026-11-05 23:14:38 | INFO    | ESCALATE| False
+2026-11-05 23:14:38 | INFO    | ------------------------------------------------------------
+2026-11-05 23:14:38 | INFO    | INPUT   | I want my money back for order SHOE101, the shoes don't fit.
+2026-11-05 23:14:38 | INFO    | IntentAgent -> intent=refund sentiment=neutral conf=0.90 order_id=None tracking=None
+2026-11-05 23:14:38 | INFO    | InfoAgent   -> intent=refund sentiment=neutral conf=0.90 order_id=SHOE101 tracking=Delivered
+2026-11-05 23:14:38 | INFO    | ReplyAgent  -> intent=refund sentiment=neutral conf=0.90 order_id=SHOE101 tracking=Delivered
+2026-11-05 23:14:38 | INFO    | REPLY   | I'm sorry things didn't work out. Here is our refund policy for order SHOE101: You can request a refund within 30 days of delivery for unused items in their original packaging. Once we receive the return, your refund is processed to the original payment method within 5-7 business days.
+2026-11-05 23:14:38 | INFO    | ESCALATE| False
+2026-11-05 23:14:38 | INFO    | ------------------------------------------------------------
+2026-11-05 23:14:38 | INFO    | INPUT   | This is the worst service ever! Order BAG555 is late again!!
+2026-11-05 23:14:38 | INFO    | IntentAgent -> intent=complaint sentiment=angry conf=0.85 order_id=None tracking=None
+2026-11-05 23:14:38 | INFO    | InfoAgent   -> intent=complaint sentiment=angry conf=0.85 order_id=BAG555 tracking=Delayed
+2026-11-05 23:14:38 | INFO    | ReplyAgent  -> intent=complaint sentiment=angry conf=0.85 order_id=BAG555 tracking=Delayed
+2026-11-05 23:14:38 | INFO    | REPLY   | I'm sorry about the trouble with order BAG555. Its current status is: Delayed. You can follow it here: https://track.example.com/BAG555. If you need more help, reply here and we'll look into it.
+2026-11-05 23:14:38 | INFO    | ESCALATE| True
+2026-11-05 23:14:38 | INFO    | ------------------------------------------------------------
+2026-11-05 23:14:38 | INFO    | INPUT   | Where is my package? I never got an order ID.
+2026-11-05 23:14:38 | INFO    | IntentAgent -> intent=order_status sentiment=neutral conf=0.85 order_id=None tracking=None
+2026-11-05 23:14:38 | INFO    | InfoAgent   -> intent=order_status sentiment=neutral conf=0.85 order_id=None tracking=None
+2026-11-05 23:14:38 | INFO    | ReplyAgent  -> intent=order_status sentiment=neutral conf=0.85 order_id=None tracking=None
+2026-11-05 23:14:38 | INFO    | REPLY   | I'm sorry for the trouble. Could you please share your Order ID (for example SHOE123) so I can check it right away?
+2026-11-05 23:14:38 | INFO    | ESCALATE| False
+2026-11-05 23:14:38 | INFO    | ------------------------------------------------------------
+2026-11-05 23:14:38 | INFO    | INPUT   | Where is my order ZZZ999?
+2026-11-05 23:14:38 | INFO    | IntentAgent -> intent=order_status sentiment=neutral conf=0.85 order_id=None tracking=None
+2026-11-05 23:14:38 | INFO    | InfoAgent   -> intent=order_status sentiment=neutral conf=0.85 order_id=ZZZ999 tracking=None
+2026-11-05 23:14:38 | INFO    | ReplyAgent  -> intent=order_status sentiment=neutral conf=0.85 order_id=ZZZ999 tracking=None
+2026-11-05 23:14:38 | INFO    | REPLY   | I'm sorry, I couldn't find an order with ID ZZZ999. I've passed this to a human teammate who will check it for you.
+2026-11-05 23:14:38 | INFO    | ESCALATE| True
+2026-11-05 23:14:38 | INFO    | ------------------------------------------------------------
+2026-11-05 23:14:38 | INFO    | INPUT   | hello
+2026-11-05 23:14:38 | INFO    | IntentAgent -> intent=unknown sentiment=neutral conf=0.20 order_id=None tracking=None
+2026-11-05 23:14:38 | INFO    | InfoAgent   -> intent=unknown sentiment=neutral conf=0.20 order_id=None tracking=None
+2026-11-05 23:14:38 | INFO    | ReplyAgent  -> intent=unknown sentiment=neutral conf=0.20 order_id=None tracking=None
+2026-11-05 23:14:38 | INFO    | REPLY   | Thanks for reaching out. I want to make sure you get the right help, so I'm passing your message to a human teammate who will reply shortly.
+2026-11-05 23:14:38 | INFO    | ESCALATE| True
+2026-11-05 23:14:38 | INFO    | ------------------------------------------------------------

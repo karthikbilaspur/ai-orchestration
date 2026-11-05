@@ -1,0 +1,21 @@
+{
+  "query": "Should I carry an umbrella in Bangalore tomorrow? And what should I wear for a morning run?",
+  "parsed": {
+    "city": "Bangalore",
+    "date": "2026-11-05",
+    "intent": {
+      "umbrella": true,
+      "activity": "morning run"
+    }
+  },
+  "forecast": {
+    "city": "Bangalore",
+    "date": "2026-11-05",
+    "temp_c": 24.5,
+    "rain_prob": 30,
+    "description": "light rain"
+  },
+  "recommendation": {
+    "final_text": "30% rain, 24.5\u00b0C (light rain). Wear: moisture-wicking t-shirt, running shorts, running shoes. Carry umbrella / light rain jacket."
+  }
+}

@@ -1,0 +1,47 @@
+06:18:04.807 | MainThread | Orchestrator ready | mode=offline
+06:18:04.807 | MainThread | INPUT    | I have a meeting with Flipkart team at 2 PM about AI integration
+06:18:04.807 | MainThread | PARSED   | company=Flipkart time=2 PM topic=AI integration category=ai_integration warnings=[]
+06:18:04.807 | agent_0    | START    | TechStackAgent
+06:18:04.808 | agent_1    | START    | QuestionsAgent
+06:18:05.308 | agent_0    | DONE     | TechStackAgent in 0.50s
+06:18:05.308 | agent_1    | DONE     | QuestionsAgent in 0.50s
+06:18:05.309 | MainThread | PARALLEL | wall=0.50s | sequential would take 1.00s
+06:18:05.309 | MainThread | MERGED   | 26 lines, tech_points=3, questions=5
+06:18:05.309 | MainThread | ----------------------------------------------------------------------
+06:18:05.381 | MainThread | Orchestrator ready | mode=offline
+06:18:05.381 | MainThread | INPUT    | I have a meeting with Flipkart team at 2 PM about AI integration
+06:18:05.381 | MainThread | PARSED   | company=Flipkart time=2 PM topic=AI integration category=ai_integration warnings=[]
+06:18:05.381 | agent_0    | START    | TechStackAgent
+06:18:05.381 | agent_1    | START    | QuestionsAgent
+06:18:05.882 | agent_0    | DONE     | TechStackAgent in 0.50s
+06:18:05.882 | agent_1    | DONE     | QuestionsAgent in 0.50s
+06:18:05.882 | MainThread | PARALLEL | wall=0.50s | sequential would take 1.00s
+06:18:05.882 | MainThread | MERGED   | 26 lines, tech_points=3, questions=5
+06:18:05.882 | MainThread | ----------------------------------------------------------------------
+06:18:05.883 | MainThread | INPUT    | Call with Zomato team at 10:30 AM about cloud cost optimization
+06:18:05.883 | MainThread | PARSED   | company=Zomato time=10:30 AM topic=cloud cost optimization category=generic warnings=[]
+06:18:05.883 | agent_0    | START    | TechStackAgent
+06:18:05.883 | agent_1    | START    | QuestionsAgent
+06:18:06.383 | agent_0    | DONE     | TechStackAgent in 0.50s
+06:18:06.383 | agent_1    | DONE     | QuestionsAgent in 0.50s
+06:18:06.384 | MainThread | PARALLEL | wall=0.50s | sequential would take 1.00s
+06:18:06.384 | MainThread | MERGED   | 26 lines, tech_points=3, questions=5
+06:18:06.384 | MainThread | ----------------------------------------------------------------------
+06:18:06.384 | MainThread | INPUT    | Meeting with Infosys team at 4 PM about LLM chatbot rollout
+06:18:06.384 | MainThread | PARSED   | company=Infosys time=4 PM topic=LLM chatbot rollout category=ai_integration warnings=[]
+06:18:06.384 | agent_0    | START    | TechStackAgent
+06:18:06.384 | agent_1    | START    | QuestionsAgent
+06:18:06.885 | agent_0    | DONE     | TechStackAgent in 0.50s
+06:18:06.885 | agent_1    | DONE     | QuestionsAgent in 0.50s
+06:18:06.885 | MainThread | PARALLEL | wall=0.50s | sequential would take 1.00s
+06:18:06.885 | MainThread | MERGED   | 26 lines, tech_points=3, questions=5
+06:18:06.885 | MainThread | ----------------------------------------------------------------------
+06:18:06.885 | MainThread | INPUT    | Quick sync with Acme at 9 AM
+06:18:06.885 | MainThread | PARSED   | company=Acme time=9 AM topic=None category=generic warnings=['no topic found']
+06:18:06.885 | agent_0    | START    | TechStackAgent
+06:18:06.886 | agent_1    | START    | QuestionsAgent
+06:18:07.386 | agent_0    | DONE     | TechStackAgent in 0.50s
+06:18:07.386 | agent_1    | DONE     | QuestionsAgent in 0.50s
+06:18:07.387 | MainThread | PARALLEL | wall=0.50s | sequential would take 1.00s
+06:18:07.387 | MainThread | MERGED   | 26 lines, tech_points=3, questions=5
+06:18:07.387 | MainThread | ----------------------------------------------------------------------

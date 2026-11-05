@@ -1,0 +1,23 @@
+{
+  "source": "Indiranagar",
+  "destination": "The Airport",
+  "distance_km": 32.0,
+  "rate_per_km": 18.0,
+  "avg_speed_kmph": 30.0,
+  "cost": 576.0,
+  "time": {
+    "hours_decimal": 1.07,
+    "hours": 1,
+    "minutes": 4,
+    "total_minutes": 64,
+    "formatted": "1hr 4 mins"
+  },
+  "budget": {
+    "base_cost": 576.0,
+    "buffer_percent": 10,
+    "max_budget": 633.6
+  },
+  "timestamp": "2026-11-04T10:18:25.819283",
+  "input": "I want to go from Indiranagar to the Airport, distance is 32km. If auto charges 18rs per km, what's the cost and time if avg speed is 30 km/h?",
+  "explanation": "For your trip from Indiranagar to The Airport (32.0 km):\n- At \u20b918.0/km, it will cost \u20b9576.0.\n- At avg speed of 30.0 km/h, it will take ~1hr 4 mins (1.07 hrs).\n- Suggested budget with 10% buffer: \u20b9633.6."
+}

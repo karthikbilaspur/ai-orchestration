@@ -1,0 +1,37 @@
+{
+  "source": null,
+  "destination": null,
+  "distance_km": 32.0,
+  "rate_per_km": 18.0,
+  "avg_speed_kmph": 30.0,
+  "mode": "auto",
+  "traffic": "heavy",
+  "round_trip": false,
+  "cost_info": {
+    "base_cost": 576.0,
+    "waiting_cost": 0.0,
+    "total_cost": 576.0,
+    "distance_charged": 32.0,
+    "mode": "auto",
+    "round_trip": false
+  },
+  "time_info": {
+    "hours_decimal": 1.78,
+    "hours": 1,
+    "minutes": 46,
+    "total_minutes": 106,
+    "effective_speed": 18.0,
+    "formatted": "1hr 46 mins",
+    "traffic": "heavy"
+  },
+  "budget": {
+    "base_cost": 576.0,
+    "buffer_percent": 15,
+    "max_budget": 662.4,
+    "min_budget": 518.4
+  },
+  "timestamp": "2026-11-04T10:20:30.761399",
+  "input": "Indiranagar to Airport 32km at 18rs/km peak traffic speed 30 km/h",
+  "gemini_used": false,
+  "explanation": "For your trip from your source to your destination (32.0 km) by auto:\n- At Rs.18.0/km (mode adjusted), total cost = Rs.576.0 (base Rs.576.0).\n- Time: ~1hr 46 mins (1.78 hrs). With heavy traffic, effective speed is 18.0 km/h.\n- Suggested budget: Rs.518.4 - Rs.662.4 (with 15% buffer).\nTip: If traffic is heavy, consider metro for this route."
+}

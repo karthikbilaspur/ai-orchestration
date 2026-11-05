@@ -1,0 +1,4 @@
+# The project runs with ONLY the Python standard library (rule-based mode).
+# Optional: install these to let a real LLM do intent detection and reply polishing.
+anthropic>=0.40.0
+pytest>=8.0.0

@@ -1,0 +1,135 @@
+[
+  {
+    "name": "Rohan",
+    "status": "Rejected",
+    "reason": "No AI/LLM skills",
+    "score": 4,
+    "match_level": "Weak Match",
+    "skills": [
+      "Python",
+      "Excel"
+    ],
+    "negated": [
+      "AI"
+    ],
+    "reason_lines": [
+      "Relevant skills: Python; has project experience.",
+      "Missing AI/LLM, which the role requires."
+    ],
+    "scorer_ran": true,
+    "id": "R001"
+  },
+  {
+    "name": "Anita",
+    "status": "Shortlisted",
+    "reason": "Meets all required skills with hands-on work",
+    "score": 10,
+    "match_level": "Strong Match",
+    "skills": [
+      "Python",
+      "LLM",
+      "FastAPI",
+      "Git",
+      "AI"
+    ],
+    "negated": [],
+    "reason_lines": [
+      "Relevant skills: Python, LLM, FastAPI, Git, AI; has project experience.",
+      "Matches the requirements with hands-on evidence; recommend interview."
+    ],
+    "scorer_ran": true,
+    "id": "R002"
+  },
+  {
+    "name": "Vikram",
+    "status": "Rejected",
+    "reason": "No Python skills",
+    "score": null,
+    "match_level": "Rejected",
+    "skills": [
+      "Java",
+      "Spring Boot",
+      "SQL",
+      "Machine Learning"
+    ],
+    "negated": [],
+    "reason_lines": [],
+    "scorer_ran": false,
+    "id": "R003"
+  },
+  {
+    "name": "Sam",
+    "status": "Weak Match",
+    "reason": "No AI/LLM skills, but solid profile; needs human review",
+    "score": 5,
+    "match_level": "Weak Match",
+    "skills": [
+      "Python",
+      "SQL",
+      "Git",
+      "Flask",
+      "Pandas",
+      "REST API"
+    ],
+    "negated": [
+      "LLM",
+      "Machine Learning"
+    ],
+    "reason_lines": [
+      "Relevant skills: Python, SQL, Git, Flask, Pandas, REST API; has project experience.",
+      "Missing AI/LLM; worth a human look only if the pool is small."
+    ],
+    "scorer_ran": true,
+    "id": "R004"
+  },
+  {
+    "name": "Neha",
+    "status": "Rejected",
+    "reason": "No AI/LLM skills",
+    "score": 3,
+    "match_level": "Weak Match",
+    "skills": [
+      "Python"
+    ],
+    "negated": [
+      "AI"
+    ],
+    "reason_lines": [
+      "Relevant skills: Python; no project evidence.",
+      "Missing AI/LLM, which the role requires."
+    ],
+    "scorer_ran": true,
+    "id": "R005"
+  },
+  {
+    "name": "Unknown",
+    "status": "Shortlisted",
+    "reason": "Meets all required skills with hands-on work",
+    "score": 10,
+    "match_level": "Strong Match",
+    "skills": [
+      "Python",
+      "LLM",
+      "Machine Learning"
+    ],
+    "negated": [],
+    "reason_lines": [
+      "Relevant skills: Python, LLM, Machine Learning; has project experience.",
+      "Matches the requirements with hands-on evidence; recommend interview."
+    ],
+    "scorer_ran": true,
+    "id": "R006"
+  },
+  {
+    "name": "Unknown",
+    "status": "Rejected",
+    "reason": "Empty resume",
+    "score": null,
+    "match_level": "Rejected",
+    "skills": [],
+    "negated": [],
+    "reason_lines": [],
+    "scorer_ran": false,
+    "id": "R007"
+  }
+]

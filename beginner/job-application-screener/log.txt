@@ -1,0 +1,48 @@
+2026-11-03 05:52:43 | INFO    | Orchestrator ready | mode=rule-based
+2026-11-03 05:52:43 | INFO    | INPUT    | id=TASK | JD=Need Python + AI/LLM intern | resume=Resume: Name: Rohan. Skills: Python, Excel. Project: Made a calculator app. No AI experience.
+2026-11-03 05:52:43 | INFO    | ExtractorAgent -> name=Rohan skills=['Python', 'Excel'] denied=['AI']
+2026-11-03 05:52:43 | INFO    | CheckerAgent   -> requires={'python': True, 'ai_llm': True} match=Weak Match missing=['AI/LLM']
+2026-11-03 05:52:43 | INFO    | ScorerAgent    -> score=4 {'base': 1, 'python': 2, 'has_project': 1} status=Rejected
+2026-11-03 05:52:43 | INFO    | RESULT   | {'status': 'Rejected', 'reason': 'No AI/LLM skills'}
+2026-11-03 05:52:43 | INFO    | ----------------------------------------------------------------------
+2026-11-03 05:52:43 | INFO    | INPUT    | id=R001 | JD=Need Python + AI/LLM intern | resume=Resume: Name: Rohan. Skills: Python, Excel. Project: Made a calculator app. No AI experience.
+2026-11-03 05:52:43 | INFO    | ExtractorAgent -> name=Rohan skills=['Python', 'Excel'] denied=['AI']
+2026-11-03 05:52:43 | INFO    | CheckerAgent   -> requires={'python': True, 'ai_llm': True} match=Weak Match missing=['AI/LLM']
+2026-11-03 05:52:43 | INFO    | ScorerAgent    -> score=4 {'base': 1, 'python': 2, 'has_project': 1} status=Rejected
+2026-11-03 05:52:43 | INFO    | RESULT   | {'status': 'Rejected', 'reason': 'No AI/LLM skills'}
+2026-11-03 05:52:43 | INFO    | ----------------------------------------------------------------------
+2026-11-03 05:52:43 | INFO    | INPUT    | id=R002 | JD=Need Python + AI/LLM intern | resume=Name: Anita. Skills: Python, LangChain, RAG, OpenAI API, FastAPI, Git. Project: Built a PDF Q&A chatbot using RAG and OpenAI. Experience: AI intern at
+2026-11-03 05:52:43 | INFO    | ExtractorAgent -> name=Anita skills=['Python', 'LLM', 'FastAPI', 'Git', 'AI'] denied=[]
+2026-11-03 05:52:43 | INFO    | CheckerAgent   -> requires={'python': True, 'ai_llm': True} match=Strong Match missing=[]
+2026-11-03 05:52:43 | INFO    | ScorerAgent    -> score=10 {'base': 1, 'python': 2, 'ai_llm_skill': 3, 'multiple_ai_skills': 1, 'has_project': 1, 'relevant_skills': 1, 'internship': 1, 'hands_on_ai': 1} status=Shortlisted
+2026-11-03 05:52:43 | INFO    | RESULT   | {'status': 'Shortlisted', 'reason': 'Meets all required skills with hands-on work'}
+2026-11-03 05:52:43 | INFO    | ----------------------------------------------------------------------
+2026-11-03 05:52:43 | INFO    | INPUT    | id=R003 | JD=Need Python + AI/LLM intern | resume=Name: Vikram. Skills: Java, Spring Boot, SQL, Machine Learning. Project: Built a hotel booking system. Experience: Backend intern.
+2026-11-03 05:52:43 | INFO    | ExtractorAgent -> name=Vikram skills=['Java', 'Spring Boot', 'SQL', 'Machine Learning'] denied=[]
+2026-11-03 05:52:43 | INFO    | CheckerAgent   -> requires={'python': True, 'ai_llm': True} match=Rejected missing=[]
+2026-11-03 05:52:43 | INFO    | STOP     | pipeline halted after CheckerAgent; remaining agents skipped
+2026-11-03 05:52:43 | INFO    | RESULT   | {'status': 'Rejected', 'reason': 'No Python skills'}
+2026-11-03 05:52:43 | INFO    | ----------------------------------------------------------------------
+2026-11-03 05:52:43 | INFO    | INPUT    | id=R004 | JD=Need Python + AI/LLM intern | resume=Name: Sam. Skills: Python, SQL, Git, Flask, Pandas. Project: Built a REST API and a sales dashboard. Experience: Backend intern at a startup. No machi
+2026-11-03 05:52:43 | INFO    | ExtractorAgent -> name=Sam skills=['Python', 'SQL', 'Git', 'Flask', 'Pandas', 'REST API'] denied=['LLM', 'Machine Learning']
+2026-11-03 05:52:43 | INFO    | CheckerAgent   -> requires={'python': True, 'ai_llm': True} match=Weak Match missing=['AI/LLM']
+2026-11-03 05:52:43 | INFO    | ScorerAgent    -> score=5 {'base': 1, 'python': 2, 'has_project': 1, 'relevant_skills': 2, 'internship': 1} status=Weak Match
+2026-11-03 05:52:43 | INFO    | RESULT   | {'status': 'Weak Match', 'reason': 'No AI/LLM skills, but solid profile; needs human review'}
+2026-11-03 05:52:43 | INFO    | ----------------------------------------------------------------------
+2026-11-03 05:52:43 | INFO    | INPUT    | id=R005 | JD=Need Python + AI/LLM intern | resume=Name: Neha. Skills: Python. Interested in learning AI someday.
+2026-11-03 05:52:43 | INFO    | ExtractorAgent -> name=Neha skills=['Python'] denied=['AI']
+2026-11-03 05:52:43 | INFO    | CheckerAgent   -> requires={'python': True, 'ai_llm': True} match=Weak Match missing=['AI/LLM']
+2026-11-03 05:52:43 | INFO    | ScorerAgent    -> score=3 {'base': 1, 'python': 2} status=Rejected
+2026-11-03 05:52:43 | INFO    | RESULT   | {'status': 'Rejected', 'reason': 'No AI/LLM skills'}
+2026-11-03 05:52:43 | INFO    | ----------------------------------------------------------------------
+2026-11-03 05:52:43 | INFO    | INPUT    | id=R006 | JD=Need Python + AI/LLM intern | resume=Arjun here. I know Python and have fine-tuned transformers with PyTorch for a sentiment analysis NLP project during my internship.
+2026-11-03 05:52:43 | INFO    | ExtractorAgent -> name=Unknown skills=['Python', 'LLM', 'Machine Learning'] denied=[]
+2026-11-03 05:52:43 | INFO    | CheckerAgent   -> requires={'python': True, 'ai_llm': True} match=Strong Match missing=[]
+2026-11-03 05:52:43 | INFO    | ScorerAgent    -> score=10 {'base': 1, 'python': 2, 'ai_llm_skill': 3, 'multiple_ai_skills': 1, 'has_project': 1, 'internship': 1, 'hands_on_ai': 1} status=Shortlisted
+2026-11-03 05:52:43 | INFO    | RESULT   | {'status': 'Shortlisted', 'reason': 'Meets all required skills with hands-on work'}
+2026-11-03 05:52:43 | INFO    | ----------------------------------------------------------------------
+2026-11-03 05:52:43 | INFO    | INPUT    | id=R007 | JD=Need Python + AI/LLM intern | resume=
+2026-11-03 05:52:43 | INFO    | ExtractorAgent -> name=Unknown skills=[] denied=[]
+2026-11-03 05:52:43 | INFO    | STOP     | pipeline halted after ExtractorAgent; remaining agents skipped
+2026-11-03 05:52:43 | INFO    | RESULT   | {'status': 'Rejected', 'reason': 'Empty resume'}
+2026-11-03 05:52:43 | INFO    | ----------------------------------------------------------------------

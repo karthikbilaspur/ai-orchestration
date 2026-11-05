@@ -1,0 +1,13 @@
+[
+  {"id": "E001", "sender": "Priya", "message": "Hi, spent Rs. 1200 on client dinner at Toit, Bangalore. No bill attached."},
+  {"id": "E002", "sender": "Ravi", "message": "Paid ₹350 for Uber to office. Bill attached."},
+  {"id": "E003", "sender": "Amit", "message": "Team lunch Rs 2,400 at Truffles, Bangalore.", "attachments": ["receipt.pdf"]},
+  {"id": "E004", "sender": "Sneha", "message": "Taxi from airport Rs 500, no receipt"},
+  {"id": "E005", "sender": "Kiran", "message": "Hotel stay Rs. 1000 at Taj without bill"},
+  {"id": "E006", "sender": "Meera", "message": "Spent 450 on coffee with client at Third Wave, Bangalore"},
+  {"id": "E007", "sender": "Dev", "message": "Spent Rs 800 on dinner and Rs 700 on cab, no bill"},
+  {"id": "E008", "sender": "Nisha", "message": "Flight ticket $250 to Delhi, ticket attached"},
+  {"id": "E009", "sender": "Arun", "message": "Hi, I spent some money on dinner yesterday"},
+  {"id": "E010", "sender": "Amit", "message": "Team lunch Rs 2400 at Truffles Bangalore, receipt attached", "attachments": ["receipt2.pdf"]},
+  {"id": "E011", "sender": "Zoya", "message": "Client dinner Rs 5000 at Karavalli"}
+]

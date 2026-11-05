@@ -1,0 +1,21 @@
+[2026-11-02 00:08:23] === NEW EMAIL ===
+{
+  "sender": "customer@gmail.com",
+  "subject": "Damaged laptop received",
+  "body": "Hello, I ordered a laptop for ₹65,000. It arrived today, but the screen is cracked. I want a replacement as soon as possible. My order ID is #45821."
+}
+
+[2026-11-02 00:14:31] === NEW EMAIL ===
+{
+  "sender": "customer@gmail.com",
+  "subject": "Damaged laptop received",
+  "body": "Hello, I ordered a laptop for ₹65,000. It arrived today, but the screen is cracked. I want a replacement as soon as possible. My order ID is #45821."
+}
+
+[2026-11-02 00:20:04] === NEW EMAIL ===
+{
+  "sender": "customer@gmail.com",
+  "subject": "Damaged laptop received",
+  "body": "Hello, I ordered a laptop for ₹65,000. It arrived today, but the screen is cracked. I want a replacement as soon as possible. My order ID is #45821."
+}
+

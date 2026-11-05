@@ -1,0 +1,28 @@
+=== PROMPT LOG for AI Weather Outfit Planner ===
+
+1. LLM Parser Prompt (System):
+"You are a weather query parser. Extract:
+- city (string)
+- date (YYYY-MM-DD, interpret tomorrow/today relative to now)
+- intent: umbrella_needed (bool), activity (e.g. morning run, office, general)
+Return JSON only: {"city": "...", "date": "...", "intent": {"umbrella": true/false, "activity": "..."}}"
+
+2. User Prompts Tested:
+- "Should I carry an umbrella in Bangalore tomorrow? And what should I wear for a morning run?"
+  -> Expected: city=Bangalore, date=tomorrow (2026-11-05), umbrella=true, activity=morning run
+- "Do I need jacket in Delhi today evening?"
+  -> city=Delhi, date=today
+- "Plan outfit for London on 2026-12-01 for office"
+  -> city=London, date=2026-12-01
+
+3. Outfit Logic Prompt (internal):
+"Given temp, rain%, description, wind, AQI -> decide base outfit + umbrella yes/no + extra advice"
+
+4. Weather API Call:
+Endpoint: https://api.openweathermap.org/data/2.5/forecast?q={city}&appid={KEY}&units=metric
+Fields used: main.temp, main.feels_like, main.humidity, pop (rain prob), weather[0].description, wind.speed
+
+5. Final Recommendation Prompt (LLM-style summary):
+"30% rain, 24°C, light rain -> light t-shirt + carry umbrella" pattern.
+
+All prompts executed and logged during development.

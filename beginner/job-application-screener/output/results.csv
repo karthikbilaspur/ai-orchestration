@@ -1,0 +1,8 @@
+id,name,status,score,reason,skills
+R001,Rohan,Rejected,4,No AI/LLM skills,Python; Excel
+R002,Anita,Shortlisted,10,Meets all required skills with hands-on work,Python; LLM; FastAPI; Git; AI
+R003,Vikram,Rejected,,No Python skills,Java; Spring Boot; SQL; Machine Learning
+R004,Sam,Weak Match,5,"No AI/LLM skills, but solid profile; needs human review",Python; SQL; Git; Flask; Pandas; REST API
+R005,Neha,Rejected,3,No AI/LLM skills,Python
+R006,Unknown,Shortlisted,10,Meets all required skills with hands-on work,Python; LLM; Machine Learning
+R007,Unknown,Rejected,,Empty resume,

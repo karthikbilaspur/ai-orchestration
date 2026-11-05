@@ -1,0 +1,9 @@
+[
+  {"id": "R001", "resume": "Resume: Name: Rohan. Skills: Python, Excel. Project: Made a calculator app. No AI experience."},
+  {"id": "R002", "resume": "Name: Anita. Skills: Python, LangChain, RAG, OpenAI API, FastAPI, Git. Project: Built a PDF Q&A chatbot using RAG and OpenAI. Experience: AI intern at a startup, shipped an LLM-based support bot."},
+  {"id": "R003", "resume": "Name: Vikram. Skills: Java, Spring Boot, SQL, Machine Learning. Project: Built a hotel booking system. Experience: Backend intern."},
+  {"id": "R004", "resume": "Name: Sam. Skills: Python, SQL, Git, Flask, Pandas. Project: Built a REST API and a sales dashboard. Experience: Backend intern at a startup. No machine learning or LLM experience."},
+  {"id": "R005", "resume": "Name: Neha. Skills: Python. Interested in learning AI someday."},
+  {"id": "R006", "resume": "Arjun here. I know Python and have fine-tuned transformers with PyTorch for a sentiment analysis NLP project during my internship."},
+  {"id": "R007", "resume": ""}
+]

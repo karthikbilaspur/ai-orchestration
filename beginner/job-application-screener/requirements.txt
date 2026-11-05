@@ -1,0 +1,4 @@
+# The project runs with ONLY the Python standard library (rule-based mode).
+# Optional: install these to let a real LLM help extract skills and write the reasons.
+anthropic>=0.40.0
+pytest>=8.0.0

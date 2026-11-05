@@ -1,0 +1,74 @@
+2026-11-03 06:29:12 | INFO    | Orchestrator ready | decisions=plain rules | parser fallback=off
+2026-11-03 06:29:12 | INFO    | INPUT    | id=- sender=None files=0 | Hi, spent Rs. 1200 on client dinner at Toit, Bangalore. No bill attached.
+2026-11-03 06:29:12 | INFO    | ParserAgent   -> {'Amount': '1200', 'Category': 'food', 'Bill': 'No', 'Place': 'Toit'} city=Bangalore client=True flags=[]
+2026-11-03 06:29:12 | INFO    | PolicyAgent   -> rule=R1 (Amount above the bill limit AND no bill) decision=Rejected
+2026-11-03 06:29:12 | INFO    | NotifierAgent -> reply=Hi, your claim of Rs 1200 (food at Toit): Rejected as per policy: Bill mandatory above Rs 1000. Please resubmit with the bill attached.
+2026-11-03 06:29:12 | INFO    | RESULT   | {'decision': 'Rejected', 'message': 'Rejected as per policy: Bill mandatory above Rs 1000'}
+2026-11-03 06:29:12 | INFO    | ----------------------------------------------------------------------
+2026-11-03 06:29:12 | INFO    | Orchestrator ready | decisions=plain rules | parser fallback=off
+2026-11-03 06:29:12 | INFO    | INPUT    | id=E001 sender=Priya files=0 | Hi, spent Rs. 1200 on client dinner at Toit, Bangalore. No bill attached.
+2026-11-03 06:29:12 | INFO    | ParserAgent   -> {'Amount': '1200', 'Category': 'food', 'Bill': 'No', 'Place': 'Toit'} city=Bangalore client=True flags=[]
+2026-11-03 06:29:12 | INFO    | PolicyAgent   -> rule=R1 (Amount above the bill limit AND no bill) decision=Rejected
+2026-11-03 06:29:12 | INFO    | NotifierAgent -> reply=Hi Priya, your claim of Rs 1200 (food at Toit): Rejected as per policy: Bill mandatory above Rs 1000. Please resubmit with the bill attached.
+2026-11-03 06:29:12 | INFO    | RESULT   | {'decision': 'Rejected', 'message': 'Rejected as per policy: Bill mandatory above Rs 1000'}
+2026-11-03 06:29:12 | INFO    | ----------------------------------------------------------------------
+2026-11-03 06:29:12 | INFO    | INPUT    | id=E002 sender=Ravi files=0 | Paid ₹350 for Uber to office. Bill attached.
+2026-11-03 06:29:12 | INFO    | ParserAgent   -> {'Amount': '350', 'Category': 'travel', 'Bill': 'Yes', 'Place': 'Uber'} city=None client=False flags=[]
+2026-11-03 06:29:12 | INFO    | PolicyAgent   -> rule=R2 (Amount below the auto-approve limit) decision=Approved
+2026-11-03 06:29:12 | INFO    | NotifierAgent -> reply=Hi Ravi, your claim of Rs 350 (travel at Uber): Approved as per policy: expenses under Rs 500 are auto-approved. No further action needed.
+2026-11-03 06:29:12 | INFO    | RESULT   | {'decision': 'Approved', 'message': 'Approved as per policy: expenses under Rs 500 are auto-approved'}
+2026-11-03 06:29:12 | INFO    | ----------------------------------------------------------------------
+2026-11-03 06:29:12 | INFO    | INPUT    | id=E003 sender=Amit files=1 | Team lunch Rs 2,400 at Truffles, Bangalore.
+2026-11-03 06:29:12 | INFO    | ParserAgent   -> {'Amount': '2400', 'Category': 'food', 'Bill': 'Yes', 'Place': 'Truffles'} city=Bangalore client=False flags=[]
+2026-11-03 06:29:12 | INFO    | PolicyAgent   -> rule=R3 (Everything else goes to the manager) decision=Manager Review
+2026-11-03 06:29:12 | INFO    | NotifierAgent -> reply=Hi Amit, your claim of Rs 2400 (food at Truffles): Sent to your manager for approval as per policy. You will hear back once your manager has reviewed it.
+2026-11-03 06:29:12 | INFO    | RESULT   | {'decision': 'Manager Review', 'message': 'Sent to your manager for approval as per policy'}
+2026-11-03 06:29:12 | INFO    | ----------------------------------------------------------------------
+2026-11-03 06:29:12 | INFO    | INPUT    | id=E004 sender=Sneha files=0 | Taxi from airport Rs 500, no receipt
+2026-11-03 06:29:12 | INFO    | ParserAgent   -> {'Amount': '500', 'Category': 'travel', 'Bill': 'No', 'Place': 'Airport'} city=None client=False flags=[]
+2026-11-03 06:29:12 | INFO    | PolicyAgent   -> rule=R3 (Everything else goes to the manager) decision=Manager Review
+2026-11-03 06:29:12 | INFO    | NotifierAgent -> reply=Hi Sneha, your claim of Rs 500 (travel at Airport): Sent to your manager for approval as per policy. You will hear back once your manager has reviewed it.
+2026-11-03 06:29:12 | INFO    | RESULT   | {'decision': 'Manager Review', 'message': 'Sent to your manager for approval as per policy'}
+2026-11-03 06:29:12 | INFO    | ----------------------------------------------------------------------
+2026-11-03 06:29:12 | INFO    | INPUT    | id=E005 sender=Kiran files=0 | Hotel stay Rs. 1000 at Taj without bill
+2026-11-03 06:29:12 | INFO    | ParserAgent   -> {'Amount': '1000', 'Category': 'accommodation', 'Bill': 'No', 'Place': 'Taj'} city=None client=False flags=[]
+2026-11-03 06:29:12 | INFO    | PolicyAgent   -> rule=R3 (Everything else goes to the manager) decision=Manager Review
+2026-11-03 06:29:12 | INFO    | NotifierAgent -> reply=Hi Kiran, your claim of Rs 1000 (accommodation at Taj): Sent to your manager for approval as per policy. You will hear back once your manager has reviewed it.
+2026-11-03 06:29:12 | INFO    | RESULT   | {'decision': 'Manager Review', 'message': 'Sent to your manager for approval as per policy'}
+2026-11-03 06:29:12 | INFO    | ----------------------------------------------------------------------
+2026-11-03 06:29:12 | INFO    | INPUT    | id=E006 sender=Meera files=0 | Spent 450 on coffee with client at Third Wave, Bangalore
+2026-11-03 06:29:12 | INFO    | ParserAgent   -> {'Amount': '450', 'Category': 'food', 'Bill': 'Unknown', 'Place': 'Third Wave'} city=Bangalore client=True flags=[]
+2026-11-03 06:29:12 | INFO    | PolicyAgent   -> rule=R2 (Amount below the auto-approve limit) decision=Approved
+2026-11-03 06:29:12 | INFO    | NotifierAgent -> reply=Hi Meera, your claim of Rs 450 (food at Third Wave): Approved as per policy: expenses under Rs 500 are auto-approved. No further action needed.
+2026-11-03 06:29:12 | INFO    | RESULT   | {'decision': 'Approved', 'message': 'Approved as per policy: expenses under Rs 500 are auto-approved'}
+2026-11-03 06:29:12 | INFO    | ----------------------------------------------------------------------
+2026-11-03 06:29:12 | INFO    | INPUT    | id=E007 sender=Dev files=0 | Spent Rs 800 on dinner and Rs 700 on cab, no bill
+2026-11-03 06:29:12 | INFO    | ParserAgent   -> {'Amount': None, 'Category': 'food', 'Bill': 'No', 'Place': None} city=None client=False flags=['multiple_amounts']
+2026-11-03 06:29:12 | INFO    | PolicyAgent   -> rule=R0-MULTI-AMOUNT (More than one different amount in the message) decision=Manager Review
+2026-11-03 06:29:12 | INFO    | NotifierAgent -> reply=Hi Dev, your expense message: Sent to manager: more than one amount found (Rs 700, Rs 800), please confirm the total. You will hear back once your manager has reviewed it.
+2026-11-03 06:29:12 | INFO    | RESULT   | {'decision': 'Manager Review', 'message': 'Sent to manager: more than one amount found (Rs 700, Rs 800), please confirm the total'}
+2026-11-03 06:29:12 | INFO    | ----------------------------------------------------------------------
+2026-11-03 06:29:12 | INFO    | INPUT    | id=E008 sender=Nisha files=0 | Flight ticket $250 to Delhi, ticket attached
+2026-11-03 06:29:12 | INFO    | ParserAgent   -> {'Amount': '250', 'Category': 'travel', 'Bill': 'Unknown', 'Place': None} city=None client=False flags=[]
+2026-11-03 06:29:12 | INFO    | PolicyAgent   -> rule=R0-CURRENCY (Amount is not in rupees) decision=Manager Review
+2026-11-03 06:29:12 | INFO    | NotifierAgent -> reply=Hi Nisha, your claim of Rs 250 (travel): Sent to manager: expense is in USD but policy limits are in Rs. You will hear back once your manager has reviewed it.
+2026-11-03 06:29:12 | INFO    | RESULT   | {'decision': 'Manager Review', 'message': 'Sent to manager: expense is in USD but policy limits are in Rs'}
+2026-11-03 06:29:12 | INFO    | ----------------------------------------------------------------------
+2026-11-03 06:29:12 | INFO    | INPUT    | id=E009 sender=Arun files=0 | Hi, I spent some money on dinner yesterday
+2026-11-03 06:29:12 | INFO    | ParserAgent   -> {'Amount': None, 'Category': 'food', 'Bill': 'Unknown', 'Place': None} city=None client=False flags=[]
+2026-11-03 06:29:12 | INFO    | PolicyAgent   -> rule=R0-NO-AMOUNT (No amount found) decision=Need More Info
+2026-11-03 06:29:12 | INFO    | NotifierAgent -> reply=Hi Arun, your expense message: Need more info: please share the expense amount (for example Rs 1200).
+2026-11-03 06:29:12 | INFO    | RESULT   | {'decision': 'Need More Info', 'message': 'Need more info: please share the expense amount (for example Rs 1200)'}
+2026-11-03 06:29:12 | INFO    | ----------------------------------------------------------------------
+2026-11-03 06:29:12 | INFO    | INPUT    | id=E010 sender=Amit files=1 | Team lunch Rs 2400 at Truffles Bangalore, receipt attached
+2026-11-03 06:29:12 | INFO    | ParserAgent   -> {'Amount': '2400', 'Category': 'food', 'Bill': 'Yes', 'Place': 'Truffles Bangalore'} city=None client=False flags=[]
+2026-11-03 06:29:12 | INFO    | PolicyAgent   -> rule=R0-DUPLICATE (Looks like a repeat of an earlier approved/pending claim) decision=Manager Review
+2026-11-03 06:29:12 | INFO    | NotifierAgent -> reply=Hi Amit, your claim of Rs 2400 (food at Truffles Bangalore): Sent to manager: looks like a duplicate of an earlier claim. You will hear back once your manager has reviewed it.
+2026-11-03 06:29:12 | INFO    | RESULT   | {'decision': 'Manager Review', 'message': 'Sent to manager: looks like a duplicate of an earlier claim'}
+2026-11-03 06:29:12 | INFO    | ----------------------------------------------------------------------
+2026-11-03 06:29:12 | INFO    | INPUT    | id=E011 sender=Zoya files=0 | Client dinner Rs 5000 at Karavalli
+2026-11-03 06:29:12 | INFO    | ParserAgent   -> {'Amount': '5000', 'Category': 'food', 'Bill': 'Unknown', 'Place': 'Karavalli'} city=None client=True flags=[]
+2026-11-03 06:29:12 | INFO    | PolicyAgent   -> rule=R0-BILL-UNKNOWN (Above the bill limit and nothing says whether a bill exists) decision=Need More Info
+2026-11-03 06:29:12 | INFO    | NotifierAgent -> reply=Hi Zoya, your claim of Rs 5000 (food at Karavalli): Need more info: bill is mandatory above Rs 1000, please attach it or confirm you have none.
+2026-11-03 06:29:12 | INFO    | RESULT   | {'decision': 'Need More Info', 'message': 'Need more info: bill is mandatory above Rs 1000, please attach it or confirm you have none'}
+2026-11-03 06:29:12 | INFO    | ----------------------------------------------------------------------
