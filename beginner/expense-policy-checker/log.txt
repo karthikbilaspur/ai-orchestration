@@ -72,3 +72,10 @@
 2026-11-03 06:29:12 | INFO    | NotifierAgent -> reply=Hi Zoya, your claim of Rs 5000 (food at Karavalli): Need more info: bill is mandatory above Rs 1000, please attach it or confirm you have none.
 2026-11-03 06:29:12 | INFO    | RESULT   | {'decision': 'Need More Info', 'message': 'Need more info: bill is mandatory above Rs 1000, please attach it or confirm you have none'}
 2026-11-03 06:29:12 | INFO    | ----------------------------------------------------------------------
+2026-11-05 23:27:19 | INFO    | Orchestrator ready | decisions=plain rules | parser fallback=off
+2026-11-05 23:27:19 | INFO    | INPUT    | id=- sender=None files=0 | Hi, spent Rs. 1200 on client dinner at Toit, Bangalore. No bill attached.
+2026-11-05 23:27:19 | INFO    | ParserAgent   -> {'Amount': '1200', 'Category': 'food', 'Bill': 'No', 'Place': 'Toit'} city=Bangalore client=True flags=[]
+2026-11-05 23:27:19 | INFO    | PolicyAgent   -> rule=R1 (Amount above the bill limit AND no bill) decision=Rejected
+2026-11-05 23:27:19 | INFO    | NotifierAgent -> reply=Hi, your claim of Rs 1200 (food at Toit): Rejected as per policy: Bill mandatory above Rs 1000. Please resubmit with the bill attached.
+2026-11-05 23:27:19 | INFO    | RESULT   | {'decision': 'Rejected', 'message': 'Rejected as per policy: Bill mandatory above Rs 1000'}
+2026-11-05 23:27:19 | INFO    | ----------------------------------------------------------------------

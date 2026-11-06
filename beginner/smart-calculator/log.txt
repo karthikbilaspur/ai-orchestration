@@ -21,3 +21,9 @@ Final answer: 80
 2026-11-04 17:44:19,119 | INFO    | 2. LLM PLAN (raw): {"steps": [{"id": 1, "op": "divide", "args": [10.0, 0.0], "description": "10 divide 0"}]}
 2026-11-04 17:44:19,119 | INFO    | 3. OPERATIONS: [{"id": 1, "op": "divide", "args": [10.0, 0.0], "description": "10 divide 0"}]
 2026-11-04 17:44:19,119 | ERROR   | 4. CALCULATOR ERROR: Cannot divide by zero.
+2026-11-05 23:57:07,940 | INFO    | 1. QUESTION: 34
+2026-11-05 23:57:08,035 | INFO    | 2. LLM PLAN (raw): {"error": "Offline mode could not understand this. Set ANTHROPIC_API_KEY."}
+2026-11-05 23:57:08,035 | WARNING | 3. PLAN REJECTED: Offline mode could not understand this. Set ANTHROPIC_API_KEY.
+2026-11-05 23:57:13,039 | INFO    | 1. QUESTION: 45
+2026-11-05 23:57:13,040 | INFO    | 2. LLM PLAN (raw): {"error": "Offline mode could not understand this. Set ANTHROPIC_API_KEY."}
+2026-11-05 23:57:13,041 | WARNING | 3. PLAN REJECTED: Offline mode could not understand this. Set ANTHROPIC_API_KEY.

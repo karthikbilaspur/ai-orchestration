@@ -1,0 +1,38 @@
+{
+  "query": "shs",
+  "parsed": {
+    "city": "Bangalore",
+    "date": "2026-11-07",
+    "intent": {
+      "umbrella": false,
+      "run": false,
+      "activity": "general"
+    },
+    "raw_query": "shs"
+  },
+  "forecast": {
+    "city": "Bangalore",
+    "date": "2026-11-07",
+    "temp_c": 24.5,
+    "feels_like_c": 26.0,
+    "humidity": 78,
+    "rain_prob": 30,
+    "rain_mm": 2.1,
+    "description": "light rain",
+    "wind_kmh": 12,
+    "source": "mock"
+  },
+  "air_quality": {
+    "aqi": 2,
+    "label": "Fair",
+    "pm2_5": 18.5,
+    "note": "mock data"
+  },
+  "recommendation": {
+    "outfit": "light t-shirt + light trousers, sneakers",
+    "umbrella_needed": "Yes",
+    "umbrella_reason": "30% rain chance, light rain",
+    "final_text": "30% rain, 24.5\u00b0C (light rain). Wear: light t-shirt + light trousers, sneakers. Carry umbrella / light rain jacket."
+  },
+  "generated_at": "20261106_001537"
+}

@@ -1,0 +1,7 @@
+AI Weather Outfit Planner
+Query: shs
+City: Bangalore | Date: 2026-11-07
+Forecast: {'city': 'Bangalore', 'date': '2026-11-07', 'temp_c': 24.5, 'feels_like_c': 26.0, 'humidity': 78, 'rain_prob': 30, 'rain_mm': 2.1, 'description': 'light rain', 'wind_kmh': 12, 'source': 'mock'}
+AQI: {'aqi': 2, 'label': 'Fair', 'pm2_5': 18.5, 'note': 'mock data'}
+
+Recommendation: 30% rain, 24.5°C (light rain). Wear: light t-shirt + light trousers, sneakers. Carry umbrella / light rain jacket.

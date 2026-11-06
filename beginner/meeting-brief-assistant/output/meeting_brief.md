@@ -1,5 +1,5 @@
 # Meeting Cheat-Sheet: Flipkart | 2 PM
-**Topic:** AI integration  |  **Prepared:** 2026-11-03
+**Topic:** AI integration  |  **Prepared:** 2026-11-05
 
 ## 1. Intro (30-second read)
 You are meeting the Flipkart team at 2 PM to discuss AI integration. Goal: understand where it fits in their plans, what limits them, and leave with one concrete next step.

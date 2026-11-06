@@ -45,3 +45,13 @@
 06:18:07.387 | MainThread | PARALLEL | wall=0.50s | sequential would take 1.00s
 06:18:07.387 | MainThread | MERGED   | 26 lines, tech_points=3, questions=5
 06:18:07.387 | MainThread | ----------------------------------------------------------------------
+23:48:04.085 | MainThread | Orchestrator ready | mode=offline
+23:48:04.087 | MainThread | INPUT    | I have a meeting with Flipkart team at 2 PM about AI integration
+23:48:04.088 | MainThread | PARSED   | company=Flipkart time=2 PM topic=AI integration category=ai_integration warnings=[]
+23:48:04.091 | agent_0    | START    | TechStackAgent
+23:48:04.101 | agent_1    | START    | QuestionsAgent
+23:48:04.607 | agent_1    | DONE     | QuestionsAgent in 0.51s
+23:48:04.607 | agent_0    | DONE     | TechStackAgent in 0.52s
+23:48:04.611 | MainThread | PARALLEL | wall=0.52s | sequential would take 1.02s
+23:48:04.611 | MainThread | MERGED   | 26 lines, tech_points=3, questions=5
+23:48:04.612 | MainThread | ----------------------------------------------------------------------

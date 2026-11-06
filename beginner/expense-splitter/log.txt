@@ -1,14 +1,1 @@
 AI Expense Splitter - Prompt Exchange Log
-
-=== 2026-05-11 21:00:00 ===
-USER PROMPT: We had dinner for 3480 rupees, including 18% GST. 4 of us splitting, but I want to add a 10% tip. How much each?
-LLM PARSE -> Calculator Input: {'total': 3480.0, 'gst_percent': 18.0, 'tip_percent': 10.0, 'num_people': 4}
-Calculator Tool -> Output: {'base_amount': 2949.15, 'gst_percent': 18.0, 'gst_amount': 530.85, 'total_with_gst': 3480.0, 'tip_percent': 10.0, 'tip_amount': 348.0, 'final_total': 3828.0, 'num_people': 4, 'per_person': 957.0}
-LLM Explanation -> User: Here's your bill breakdown...
---------------------------------------------------
-
-=== REAL LLM API EXCHANGE (if you upgrade) ===
-System: You are an expense parser. Extract total, gst%, tip%, people from user message. Return JSON.
-User: We had dinner for 3480 rupees...
-Assistant (LLM): {"total": 3480, "gst_percent": 18, "tip_percent": 10, "num_people": 4}
-Then Calculator Tool runs, then second LLM call explains breakdown.
