@@ -1,0 +1,7 @@
+# Project 18 - AI SQL Query Assistant
+python>=3.9
+# No heavy dependencies - stdlib only for core
+# Optional: for richer NL parsing / LLM backend
+# openai>=1.30.0
+# python-dotenv>=1.0.0
+pytest>=7.4.0

@@ -1,0 +1,4 @@
+  File "app.py", line 10
+    def foo()
+            ^
+SyntaxError: expected ':'

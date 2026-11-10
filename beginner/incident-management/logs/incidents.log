@@ -1,0 +1,138 @@
+=== Project 17 - Incident Log (sample run) ===
+
+======================================================================
+🟢 [LOW] INC-20261109062529 - frontend | UnknownError
+Time: 2026-11-09T06:25:29.974306+00:00
+Route: Log
+Alert: INFO: frontend - minor CSS warning on homepage
+
+Possible causes:
+  - Unknown - check logs and recent deploys
+  - Config drift
+  - Dependency failure
+
+Recommended actions:
+  - Log incident and monitor
+  - Create low-priority ticket
+  - Review in next standup - no immediate action
+
+======================================================================
+🟡 [MEDIUM] INC-20261109062529 - auth-service | AuthFailure
+Time: 2026-11-09T06:25:29.974665+00:00
+Route: Investigate
+Alert: ERROR: auth-service 401 unauthorized - invalid token spike
+
+Possible causes:
+  - Expired / rotated secret not updated
+  - Clock skew breaking JWT validation
+  - Identity provider outage
+
+Recommended actions:
+  - Assign on-call engineer
+  - Check dashboards / logs for affected service
+  - Check recent deploys and roll back if suspect
+  - Add monitoring / alert threshold if missing
+  - Verify secrets / cert expiry
+  - Check IdP status
+
+======================================================================
+🔴 [CRITICAL] INC-20261109062529 - payment-service | TimeoutError
+Time: 2026-11-09T06:25:29.974915+00:00
+Route: Escalate
+Alert: ERROR: payment-service timeout - 35% error rate, latency 6200ms
+
+Possible causes:
+  - Downstream service slow / unresponsive
+  - Connection pool exhausted
+  - Database query missing index / slow query
+  - Network congestion / DNS issue
+
+Recommended actions:
+  - PAGE on-call immediately + escalate to incident commander
+  - Open incident channel / bridge
+  - Consider rollback / failover / traffic shift
+  - Freeze deploys for affected service
+  - Prepare customer status-page update
+  - Increase timeout / circuit breaker check
+  - Scale up affected service
+
+⚠️  ACTION REQUIRED: Page on-call now. Do not wait.
+
+======================================================================
+🔴 [CRITICAL] INC-20261109062529 - database | DiskFull
+Time: 2026-11-09T06:25:29.975158+00:00
+Route: Escalate
+Alert: CRITICAL: database disk full - no space left, writes failing
+
+Possible causes:
+  - Logs not rotated
+  - Unbounded uploads / temp files
+  - Database growth without cleanup
+
+Recommended actions:
+  - PAGE on-call immediately + escalate to incident commander
+  - Open incident channel / bridge
+  - Consider rollback / failover / traffic shift
+  - Freeze deploys for affected service
+  - Prepare customer status-page update
+  - Clear old logs / temp files
+  - Expand disk / add retention policy
+
+⚠️  ACTION REQUIRED: Page on-call now. Do not wait.
+
+======================================================================
+🔴 [CRITICAL] INC-20261109062530 - database | DiskFull
+Time: 2026-11-09T06:25:30.368968+00:00
+Route: Escalate
+Alert: CRITICAL: database disk full - writes failing
+
+Possible causes:
+  - Logs not rotated
+  - Unbounded uploads / temp files
+  - Database growth without cleanup
+
+Recommended actions:
+  - PAGE on-call immediately + escalate to incident commander
+  - Open incident channel / bridge
+  - Consider rollback / failover / traffic shift
+  - Freeze deploys for affected service
+  - Prepare customer status-page update
+  - Clear old logs / temp files
+  - Expand disk / add retention policy
+
+⚠️  ACTION REQUIRED: Page on-call now. Do not wait.
+
+======================================================================
+🟢 [LOW] INC-20261109062530 - frontend | UnknownError
+Time: 2026-11-09T06:25:30.369882+00:00
+Route: Log
+Alert: INFO: frontend minor warning
+
+Possible causes:
+  - Unknown - check logs and recent deploys
+  - Config drift
+  - Dependency failure
+
+Recommended actions:
+  - Log incident and monitor
+  - Create low-priority ticket
+  - Review in next standup - no immediate action
+
+======================================================================
+🟡 [MEDIUM] INC-20261109062530 - auth-service | AuthFailure
+Time: 2026-11-09T06:25:30.370704+00:00
+Route: Investigate
+Alert: auth-service 401 unauthorized
+
+Possible causes:
+  - Expired / rotated secret not updated
+  - Clock skew breaking JWT validation
+  - Identity provider outage
+
+Recommended actions:
+  - Assign on-call engineer
+  - Check dashboards / logs for affected service
+  - Check recent deploys and roll back if suspect
+  - Add monitoring / alert threshold if missing
+  - Verify secrets / cert expiry
+  - Check IdP status

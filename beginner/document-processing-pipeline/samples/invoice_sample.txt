@@ -1,0 +1,17 @@
+INVOICE
+Invoice No: INV-2026-1042
+Date: 05 Nov 2026
+Due Date: 20 Nov 2026
+
+From: Bright Studio Pvt Ltd
+To: Kai Karthik
+Email: kai@example.com
+Phone: +91 98765 43210
+
+Description: Website design services
+Subtotal: Rs. 45,000
+Tax (GST 18%): Rs. 8,100
+Total: Rs. 53,100
+Amount Due: Rs. 53,100
+
+Thank you for your business!

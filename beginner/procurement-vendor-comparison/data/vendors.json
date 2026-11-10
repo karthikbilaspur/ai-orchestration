@@ -1,0 +1,47 @@
+[
+  {
+    "id": "V1",
+    "name": "TechNova",
+    "unit_price": 72000,
+    "specs": {
+      "RAM": "16GB",
+      "SSD": "512GB"
+    },
+    "delivery_days": 10,
+    "warranty_years": 3,
+    "reliability_score": 88,
+    "rating": 4.6,
+    "support": "24x7",
+    "past_issues": 1
+  },
+  {
+    "id": "V2",
+    "name": "PrimeSupply",
+    "unit_price": 68500,
+    "specs": {
+      "RAM": "16GB",
+      "SSD": "256GB"
+    },
+    "delivery_days": 12,
+    "warranty_years": 3,
+    "reliability_score": 82,
+    "rating": 4.3,
+    "support": "Business hours",
+    "past_issues": 2
+  },
+  {
+    "id": "V3",
+    "name": "ValueKart",
+    "unit_price": 64000,
+    "specs": {
+      "RAM": "8GB",
+      "SSD": "512GB"
+    },
+    "delivery_days": 18,
+    "warranty_years": 2,
+    "reliability_score": 70,
+    "rating": 3.9,
+    "support": "Email only",
+    "past_issues": 4
+  }
+]

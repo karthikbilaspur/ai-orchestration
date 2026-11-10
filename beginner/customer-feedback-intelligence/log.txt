@@ -1,0 +1,8 @@
+=== Run started 2026-11-08 22:14:29 ===
+[Splitter] Split 100 reviews -> 4 agents
+[Sentiment Agent] Done -> {'agent': 'sentiment', 'distribution': {'positive': 53, 'negative': 47, 'neutral': 0}, 'details': [{'id': 1, 'sentiment': 'negative'}, {'id': 2, 'sentiment': 'positive'}, {'id': 3, 'sentiment': 'negative'}, {'id': 4, 'se
+[Product Agent] Done -> {'agent': 'product', 'issues': [{'issue': 'quality', 'count': 23, 'example': 'Terrible quality, broken on arrival and support was rude'}, {'issue': 'packaging', 'count': 16, 'example': 'Great value, beautiful packaging, 
+[Service Agent] Done -> {'agent': 'service', 'issues': [{'issue': 'support unresponsive', 'count': 25, 'example': 'Terrible quality, broken on arrival and support was rude'}, {'issue': 'delivery delay', 'count': 25, 'example': 'I love this prod
+[Trend Agent] Done -> {'agent': 'trend', 'trends': [{'keyword': 'product', 'mentions': 26}, {'keyword': 'support', 'mentions': 25}, {'keyword': 'delivery', 'mentions': 25}, {'keyword': 'quality', 'mentions': 23}, {'keyword': 'beautiful', 'men
+[Merger Agent] Combined 4 outputs -> insight_report.md
+=== Run finished ===

@@ -1,0 +1,35 @@
+{"event": "alert_received", "incident_id": "INC-20261109062529", "severity": "unclassified", "service": "frontend", "route": ""}
+{"event": "severity_classified", "incident_id": "INC-20261109062529", "severity": "low", "service": "frontend", "route": "Log", "error_type": "UnknownError"}
+{"event": "routed_to_log", "incident_id": "INC-20261109062529", "severity": "low", "service": "frontend", "route": "Log"}
+{"event": "response_prepared", "incident_id": "INC-20261109062529", "severity": "low", "service": "frontend", "route": "Log", "actions_count": 3}
+{"event": "notification_prepared", "incident_id": "INC-20261109062529", "severity": "low", "service": "frontend", "route": "Log"}
+{"event": "alert_received", "incident_id": "INC-20261109062529", "severity": "unclassified", "service": "auth-service", "route": ""}
+{"event": "severity_classified", "incident_id": "INC-20261109062529", "severity": "medium", "service": "auth-service", "route": "Investigate", "error_type": "AuthFailure"}
+{"event": "routed_to_investigate", "incident_id": "INC-20261109062529", "severity": "medium", "service": "auth-service", "route": "Investigate"}
+{"event": "response_prepared", "incident_id": "INC-20261109062529", "severity": "medium", "service": "auth-service", "route": "Investigate", "actions_count": 6}
+{"event": "notification_prepared", "incident_id": "INC-20261109062529", "severity": "medium", "service": "auth-service", "route": "Investigate"}
+{"event": "alert_received", "incident_id": "INC-20261109062529", "severity": "unclassified", "service": "payment-service", "route": ""}
+{"event": "severity_classified", "incident_id": "INC-20261109062529", "severity": "critical", "service": "payment-service", "route": "Escalate", "error_type": "TimeoutError"}
+{"event": "routed_to_escalate", "incident_id": "INC-20261109062529", "severity": "critical", "service": "payment-service", "route": "Escalate"}
+{"event": "response_prepared", "incident_id": "INC-20261109062529", "severity": "critical", "service": "payment-service", "route": "Escalate", "actions_count": 7}
+{"event": "notification_prepared", "incident_id": "INC-20261109062529", "severity": "critical", "service": "payment-service", "route": "Escalate"}
+{"event": "alert_received", "incident_id": "INC-20261109062529", "severity": "unclassified", "service": "database", "route": ""}
+{"event": "severity_classified", "incident_id": "INC-20261109062529", "severity": "critical", "service": "database", "route": "Escalate", "error_type": "DiskFull"}
+{"event": "routed_to_escalate", "incident_id": "INC-20261109062529", "severity": "critical", "service": "database", "route": "Escalate"}
+{"event": "response_prepared", "incident_id": "INC-20261109062529", "severity": "critical", "service": "database", "route": "Escalate", "actions_count": 7}
+{"event": "notification_prepared", "incident_id": "INC-20261109062529", "severity": "critical", "service": "database", "route": "Escalate"}
+{"event": "alert_received", "incident_id": "INC-20261109062530", "severity": "unclassified", "service": "database", "route": ""}
+{"event": "severity_classified", "incident_id": "INC-20261109062530", "severity": "critical", "service": "database", "route": "Escalate", "error_type": "DiskFull"}
+{"event": "routed_to_escalate", "incident_id": "INC-20261109062530", "severity": "critical", "service": "database", "route": "Escalate"}
+{"event": "response_prepared", "incident_id": "INC-20261109062530", "severity": "critical", "service": "database", "route": "Escalate", "actions_count": 7}
+{"event": "notification_prepared", "incident_id": "INC-20261109062530", "severity": "critical", "service": "database", "route": "Escalate"}
+{"event": "alert_received", "incident_id": "INC-20261109062530", "severity": "unclassified", "service": "frontend", "route": ""}
+{"event": "severity_classified", "incident_id": "INC-20261109062530", "severity": "low", "service": "frontend", "route": "Log", "error_type": "UnknownError"}
+{"event": "routed_to_log", "incident_id": "INC-20261109062530", "severity": "low", "service": "frontend", "route": "Log"}
+{"event": "response_prepared", "incident_id": "INC-20261109062530", "severity": "low", "service": "frontend", "route": "Log", "actions_count": 3}
+{"event": "notification_prepared", "incident_id": "INC-20261109062530", "severity": "low", "service": "frontend", "route": "Log"}
+{"event": "alert_received", "incident_id": "INC-20261109062530", "severity": "unclassified", "service": "auth-service", "route": ""}
+{"event": "severity_classified", "incident_id": "INC-20261109062530", "severity": "medium", "service": "auth-service", "route": "Investigate", "error_type": "AuthFailure"}
+{"event": "routed_to_investigate", "incident_id": "INC-20261109062530", "severity": "medium", "service": "auth-service", "route": "Investigate"}
+{"event": "response_prepared", "incident_id": "INC-20261109062530", "severity": "medium", "service": "auth-service", "route": "Investigate", "actions_count": 6}
+{"event": "notification_prepared", "incident_id": "INC-20261109062530", "severity": "medium", "service": "auth-service", "route": "Investigate"}

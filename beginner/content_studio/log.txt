@@ -1,0 +1,17 @@
+Project 19 — AI Content Creation & Review Studio — Build Log
+================================================================
+2026-11-09 14:30 - Scaffolded project structure (src/agents, tests, examples)
+2026-11-09 14:32 - Implemented models.py: TopicRequest, ResearchBrief, Draft, SEOPlan, Review, FinalContent
+2026-11-09 14:35 - Implemented BaseAgent + LLMProvider abstraction (MockProvider default, OpenAI/Anthropic via env)
+2026-11-09 14:38 - Implemented ResearchAgent, WriterAgent, SEOAgent, CriticAgent, EditorAgent
+2026-11-09 14:42 - Implemented Orchestrator: pipeline + critic/editor loop + threshold + max_loops
+2026-11-09 14:45 - Implemented utils.py: Flesch-style readability, keyword density, heading extraction
+2026-11-09 14:48 - Implemented CLI in main.py (--topic, --audience, --tone, --format, --length, --threshold, --interactive)
+2026-11-09 14:52 - Added tests: test_agents.py, test_orchestrator.py, test_utils.py, test_integration.py
+2026-11-09 14:55 - Ran pytest: 28 passed
+2026-11-09 14:56 - Ran sample: python -m src.main --topic "How to start a rooftop garden in a city" -> score 84, 2 loops
+2026-11-09 14:57 - Packaged as project19_ai_content_studio.zip
+Notes:
+- MockProvider works offline, no API key needed.
+- To use real LLM, set LLM_PROVIDER + API key (see README).
+- Critic threshold default 80, max 3 loops to avoid infinite rewrites.

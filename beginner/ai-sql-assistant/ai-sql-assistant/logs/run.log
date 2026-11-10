@@ -1,0 +1,17 @@
+2026-11-09 14:00:00 | INFO | QUESTION: What are the top 5 highest-selling products?
+2026-11-09 14:00:00 | INFO | INTENT: Intent(question='What are the top 5 highest-selling products?', intent_type='top_products', limit=5, min_amount=None, category=None, sort_desc=True)
+2026-11-09 14:00:00 | INFO | SQL: SELECT p.name AS product ... ORDER BY total_sold DESC LIMIT ? | PARAMS: [5]
+2026-11-09 14:00:00 | INFO | ROWS: 5
+2026-11-09 14:00:01 | INFO | QUESTION: Show total revenue by category
+2026-11-09 14:00:01 | INFO | ROWS: 3
+2026-11-09 14:00:02 | ERROR | VALIDATION FAILED: Blocked keyword: DROP
+2026-11-08 22:31:15,167 | INFO | QUESTION: What are the top 5 highest-selling products?
+2026-11-08 22:31:15,168 | INFO | INTENT: Intent(question='What are the top 5 highest-selling products?', intent_type='top_products', limit=5, min_amount=None, category=None, sort_desc=True)
+2026-11-08 22:31:15,168 | INFO | SQL: SELECT p.name AS product, p.category, SUM(o.quantity) AS total_sold, SUM(o.total_amount) AS revenue
+                 FROM orders o JOIN products p ON p.id=o.product_id GROUP BY p.id ORDER BY total_sold DESC LIMIT ? | PARAMS: [5]
+2026-11-08 22:31:15,168 | ERROR | VALIDATION FAILED: Syntax error: no such table: orders
+2026-11-08 22:31:35,676 | INFO | QUESTION: What are the top 5 highest-selling products?
+2026-11-08 22:31:35,676 | INFO | INTENT: Intent(question='What are the top 5 highest-selling products?', intent_type='top_products', limit=5, min_amount=None, category=None, sort_desc=True)
+2026-11-08 22:31:35,676 | INFO | SQL: SELECT p.name AS product, p.category, SUM(o.quantity) AS total_sold, SUM(o.total_amount) AS revenue
+                 FROM orders o JOIN products p ON p.id=o.product_id GROUP BY p.id ORDER BY total_sold DESC LIMIT ? | PARAMS: [5]
+2026-11-08 22:31:35,677 | INFO | ROWS: 5

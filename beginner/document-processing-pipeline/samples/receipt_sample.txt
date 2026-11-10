@@ -1,0 +1,9 @@
+RECEIPT
+Date: 09 Nov 2026
+Transaction: TXN-88412
+Thank you for your purchase!
+
+Item: Notebook - Rs. 499
+Item: Pen Set - Rs. 299
+Total Paid: Rs. 798
+Cashier: Priya

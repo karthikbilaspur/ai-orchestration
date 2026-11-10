@@ -1,0 +1,12 @@
+Kai Karthik
+Resume / Curriculum Vitae
+Email: kai@example.com | Phone: +91 98765 43210
+
+Objective: Product designer with 5 years experience.
+
+Experience:
+- Senior Designer, Bright Studio (2022 - Present)
+- Designer, Pixel Works (2019 - 2022)
+
+Education: B.Des, Design Institute (2015 - 2019)
+Skills: Figma, Python, UI Design, Research

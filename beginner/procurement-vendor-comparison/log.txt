@@ -1,0 +1,9 @@
+2026-11-09 14:00:00 [INFO] Project 20 started
+2026-11-09 14:00:01 [INFO] RequirementAgent parsed budget=4000000, qty=50, specs={RAM:16GB, SSD:512GB}
+2026-11-09 14:00:01 [INFO] Parallel: VendorAnalysis, Pricing, Risk started (ThreadPoolExecutor)
+2026-11-09 14:00:02 [INFO] DecisionAgent: TechNova wins 82.4 vs 76.1 vs 68.9
+2026-11-09 14:00:02 [INFO] Report written to output/comparison_report.md
+2026-11-08 22:49:06 [INFO] RequirementAgent: parsing requirements
+2026-11-08 22:49:06 [INFO] Parsed: budget=4000000.0, qty=50, specs={'RAM': '16GB', 'SSD': '512GB'}
+2026-11-08 22:49:06 [INFO] Parallel: VendorAnalysis + Pricing + Risk (ThreadPoolExecutor)
+2026-11-08 22:49:06 [INFO] DecisionAgent: winner=TechNova score=92.0

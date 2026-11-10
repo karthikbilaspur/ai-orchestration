@@ -1,0 +1,3 @@
+# Project 17 - AI Incident Management System
+# No external dependencies - uses only Python standard library
+# Python >= 3.9
