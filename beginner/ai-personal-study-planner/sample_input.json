@@ -1,0 +1,9 @@
+{
+  "subject": "Python",
+  "level": "beginner",
+  "deadline": "2026-12-05",
+  "hours_daily": 2,
+  "difficult_topics": ["Error handling", "Recursion"],
+  "assessment": "weekly assessments",
+  "start_date": "2026-11-21"
+}

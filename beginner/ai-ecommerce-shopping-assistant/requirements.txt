@@ -1,0 +1,5 @@
+# Runtime: none! The assistant uses only the Python standard library (Python 3.9+).
+# No API keys, no network access.
+#
+# Optional (for running the tests with pytest instead of unittest):
+pytest>=7.0

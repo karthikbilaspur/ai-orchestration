@@ -1,0 +1,13 @@
+2026-11-21 11:20:54,149 INFO study_planner.agents.collector: Collected requirements: {'subject': 'Python', 'level': 'beginner', 'deadline': '2026-12-05', 'hours_daily': 2.0, 'difficult_topics': ['Recursion', 'Error handling'], 'assessment': 'weekly assessments', 'start_date': '2026-11-21'}
+2026-11-21 11:20:54,150 INFO study_planner.workflow: Handoff: collector -> topic breakdown
+2026-11-21 11:20:54,150 INFO study_planner.agents.topic_breakdown: Topic breakdown (programming domain): 9 topics, 2 high priority
+2026-11-21 11:20:54,150 INFO study_planner.workflow: Handoff: topic breakdown -> schedule generator
+2026-11-21 11:20:54,150 INFO study_planner.agents.schedule: Schedule: 15 sessions (1 revision, 2 assessment)
+2026-11-21 11:20:54,150 INFO study_planner.workflow: Handoff: schedule generator -> quiz generator
+2026-11-21 11:20:54,150 INFO study_planner.agents.quiz: Generated 12 practice questions
+2026-11-21 11:20:54,150 INFO study_planner.workflow: Handoff: quiz generator -> progress evaluator
+2026-11-21 11:20:54,152 INFO study_planner.agents.progress: Progress saved: 0% complete
+2026-11-21 11:20:54,152 INFO study_planner.workflow: Plan saved to study_plan.json
+2026-11-21 11:20:54,229 INFO study_planner.agents.progress: Progress saved: 20% complete
+2026-11-21 11:20:54,230 INFO study_planner.workflow: Sessions [0, 1, 2] completed
+2026-11-21 11:20:54,382 ERROR study_planner.cli: Session 99 does not exist (plan has sessions 0-14).

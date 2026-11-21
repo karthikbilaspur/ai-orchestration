@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+*.tmp
+meeting_minutes.json
+meeting_minutes.md
+follow_up_email.md
+.coverage
+htmlcov/
+.venv/

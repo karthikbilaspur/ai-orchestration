@@ -1,0 +1,54 @@
+2026-11-21 11:42:51,131 | INFO    | shopping_assistant.orchestrator | === New request: 'I need a laptop under 1000 for coding and travel, lightweight with good battery' ===
+2026-11-21 11:42:51,132 | INFO    | shopping_assistant.RequirementCollector | Parsed query: Category: laptop | Budget: up to $1,000 | Needs: coding, travel | Priorities: light, battery
+2026-11-21 11:42:51,132 | INFO    | shopping_assistant.orchestrator | RequirementCollector: Category: laptop | Budget: up to $1,000 | Needs: coding, travel | Priorities: light, battery (1.0 ms)
+2026-11-21 11:42:51,132 | INFO    | shopping_assistant.ProductResearch | Category 'laptop' has 6 product(s)
+2026-11-21 11:42:51,132 | INFO    | shopping_assistant.ProductResearch | Shortlist: ['Nimbus AirBook 14', 'Aurora Everyday 14']
+2026-11-21 11:42:51,132 | INFO    | shopping_assistant.orchestrator | ProductResearch: 2 of 6 products shortlisted (0.1 ms)
+2026-11-21 11:42:51,132 | INFO    | shopping_assistant.Comparison | Compared 2 product(s) over 6 row(s)
+2026-11-21 11:42:51,132 | INFO    | shopping_assistant.orchestrator | Comparison: compared 2 products on 6 features (0.1 ms)
+2026-11-21 11:42:51,132 | INFO    | shopping_assistant.Recommendation | Ranking: [('Nimbus AirBook 14', 0.942), ('Aurora Everyday 14', 0.585)]
+2026-11-21 11:42:51,132 | INFO    | shopping_assistant.orchestrator | Recommendation: top pick: Nimbus AirBook 14 (0.1 ms)
+2026-11-21 11:42:51,132 | INFO    | shopping_assistant.orchestrator | === New request: 'wireless noise cancelling headphones for the office under $300' ===
+2026-11-21 11:42:51,132 | INFO    | shopping_assistant.RequirementCollector | Parsed query: Category: headphones | Budget: up to $300 | Needs: wireless, noise-cancelling, office
+2026-11-21 11:42:51,133 | INFO    | shopping_assistant.orchestrator | RequirementCollector: Category: headphones | Budget: up to $300 | Needs: wireless, noise-cancelling, office (0.1 ms)
+2026-11-21 11:42:51,133 | INFO    | shopping_assistant.ProductResearch | Category 'headphones' has 5 product(s)
+2026-11-21 11:42:51,133 | INFO    | shopping_assistant.ProductResearch | Shortlist: ['Pulse Studio ANC', 'Aurora Buds Pro', 'Summit Gamer H7', 'Pulse Beat Lite']
+2026-11-21 11:42:51,133 | INFO    | shopping_assistant.orchestrator | ProductResearch: 4 of 5 products shortlisted (0.1 ms)
+2026-11-21 11:42:51,133 | INFO    | shopping_assistant.Comparison | Compared 3 product(s) over 5 row(s)
+2026-11-21 11:42:51,133 | INFO    | shopping_assistant.orchestrator | Comparison: compared 3 products on 5 features (0.0 ms)
+2026-11-21 11:42:51,133 | INFO    | shopping_assistant.Recommendation | Ranking: [('Aurora Buds Pro', 0.879), ('Pulse Studio ANC', 0.824), ('Summit Gamer H7', 0.658)]
+2026-11-21 11:42:51,133 | INFO    | shopping_assistant.orchestrator | Recommendation: top pick: Aurora Buds Pro (0.1 ms)
+2026-11-21 11:42:51,133 | INFO    | shopping_assistant.orchestrator | === New request: 'running shoes for a marathon, cushioned, max 200' ===
+2026-11-21 11:42:51,133 | INFO    | shopping_assistant.RequirementCollector | Parsed query: Category: running shoes | Budget: up to $200 | Needs: running, marathon | Priorities: cushion
+2026-11-21 11:42:51,133 | INFO    | shopping_assistant.orchestrator | RequirementCollector: Category: running shoes | Budget: up to $200 | Needs: running, marathon | Priorities: cushion (0.1 ms)
+2026-11-21 11:42:51,133 | INFO    | shopping_assistant.ProductResearch | Category 'running_shoes' has 5 product(s)
+2026-11-21 11:42:51,133 | INFO    | shopping_assistant.ProductResearch | Shortlist: ['Stride Swift 5', 'Stride CloudRun', 'Terra TrailBlazer', 'Pulse Everyday']
+2026-11-21 11:42:51,133 | INFO    | shopping_assistant.orchestrator | ProductResearch: 4 of 5 products shortlisted (0.1 ms)
+2026-11-21 11:42:51,133 | INFO    | shopping_assistant.Comparison | Compared 3 product(s) over 5 row(s)
+2026-11-21 11:42:51,133 | INFO    | shopping_assistant.orchestrator | Comparison: compared 3 products on 5 features (0.0 ms)
+2026-11-21 11:42:51,133 | INFO    | shopping_assistant.Recommendation | Ranking: [('Stride CloudRun', 0.778), ('Stride Swift 5', 0.775), ('Terra TrailBlazer', 0.681)]
+2026-11-21 11:42:51,133 | INFO    | shopping_assistant.orchestrator | Recommendation: top pick: Stride CloudRun (0.1 ms)
+2026-11-21 11:42:51,133 | INFO    | shopping_assistant.orchestrator | === New request: 'help me pick something nice' ===
+2026-11-21 11:42:51,134 | INFO    | shopping_assistant.RequirementCollector | Parsed query: Category: ? | Budget: not set
+2026-11-21 11:42:51,134 | INFO    | shopping_assistant.RequirementCollector | Asked for category -> backpack
+2026-11-21 11:42:51,134 | INFO    | shopping_assistant.RequirementCollector | Asked for budget -> min=None max=100.0
+2026-11-21 11:42:51,134 | INFO    | shopping_assistant.RequirementCollector | Asked for needs -> tags=['hiking', 'travel']
+2026-11-21 11:42:51,134 | INFO    | shopping_assistant.RequirementCollector | After follow-up questions: Category: backpack | Budget: up to $100 | Needs: hiking, travel
+2026-11-21 11:42:51,134 | INFO    | shopping_assistant.orchestrator | RequirementCollector: Category: backpack | Budget: up to $100 | Needs: hiking, travel (0.2 ms)
+2026-11-21 11:42:51,134 | INFO    | shopping_assistant.ProductResearch | Category 'backpack' has 5 product(s)
+2026-11-21 11:42:51,134 | INFO    | shopping_assistant.ProductResearch | Shortlist: ['Summit Daypack 20', 'Nimbus Commute 25']
+2026-11-21 11:42:51,134 | INFO    | shopping_assistant.orchestrator | ProductResearch: 2 of 5 products shortlisted (0.1 ms)
+2026-11-21 11:42:51,134 | INFO    | shopping_assistant.Comparison | Compared 2 product(s) over 6 row(s)
+2026-11-21 11:42:51,134 | INFO    | shopping_assistant.orchestrator | Comparison: compared 2 products on 6 features (0.0 ms)
+2026-11-21 11:42:51,134 | INFO    | shopping_assistant.Recommendation | Ranking: [('Summit Daypack 20', 0.95), ('Nimbus Commute 25', 0.68)]
+2026-11-21 11:42:51,134 | INFO    | shopping_assistant.orchestrator | Recommendation: top pick: Summit Daypack 20 (0.1 ms)
+2026-11-21 11:42:51,134 | INFO    | shopping_assistant.orchestrator | === New request: 'gaming laptop under 500' ===
+2026-11-21 11:42:51,134 | INFO    | shopping_assistant.RequirementCollector | Parsed query: Category: laptop | Budget: up to $500 | Needs: gaming
+2026-11-21 11:42:51,134 | INFO    | shopping_assistant.orchestrator | RequirementCollector: Category: laptop | Budget: up to $500 | Needs: gaming (0.1 ms)
+2026-11-21 11:42:51,134 | INFO    | shopping_assistant.ProductResearch | Category 'laptop' has 6 product(s)
+2026-11-21 11:42:51,134 | INFO    | shopping_assistant.ProductResearch | Shortlist: ['Aurora Go 15']
+2026-11-21 11:42:51,134 | INFO    | shopping_assistant.orchestrator | ProductResearch: 1 of 6 products shortlisted (0.1 ms)
+2026-11-21 11:42:51,134 | INFO    | shopping_assistant.Comparison | Compared 1 product(s) over 6 row(s)
+2026-11-21 11:42:51,134 | INFO    | shopping_assistant.orchestrator | Comparison: compared 1 products on 6 features (0.0 ms)
+2026-11-21 11:42:51,134 | INFO    | shopping_assistant.Recommendation | Ranking: [('Aurora Go 15', 0.5)]
+2026-11-21 11:42:51,134 | INFO    | shopping_assistant.orchestrator | Recommendation: top pick: Aurora Go 15 (0.0 ms)

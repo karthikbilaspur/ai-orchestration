@@ -1,0 +1,3 @@
+AI Career Guidance System log
+==============================
+Application log entries will be appended here when main.py is run.

@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+*.tmp
+study_plan.json
+progress.json
+.coverage
+htmlcov/
+.venv/

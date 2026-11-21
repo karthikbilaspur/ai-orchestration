@@ -1,0 +1,3 @@
+AI Customer Support Automation log
+====================================
+Runtime events are appended here when main.py is executed.

@@ -1,0 +1,5 @@
+# AI Personal Study Planner - runtime dependencies
+# Python 3.10+ standard library only: nothing to install.
+#
+# Optional developer tools (uncomment if wanted):
+# coverage>=7.0

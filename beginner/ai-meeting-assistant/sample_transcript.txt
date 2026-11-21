@@ -1,0 +1,9 @@
+[00:00:05] Maya: Good morning everyone. Let's review the Q4 product launch plan.
+[00:00:20] Sam: The beta feedback was mostly positive, but onboarding is confusing for new users.
+[00:01:10] Priya: We decided to delay the launch to 2026-12-15 so we can fix onboarding.
+[00:01:45] Maya: Agreed. Sam will redesign the onboarding flow by Friday.
+[00:02:30] Priya: I will update the launch checklist and share it tomorrow.
+[00:03:00] Sam: Maya, can you approve the new budget before next week?
+[00:03:20] Maya: Yes. Budget approved for the extra design work.
+[00:03:45] Priya: Action: Alex to prepare the customer announcement ASAP.
+[00:04:10] Maya: Thanks all. We haven't decided on pricing yet, so we will revisit it next meeting.

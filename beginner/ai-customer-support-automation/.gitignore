@@ -1,0 +1,5 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+support_case_report.json
